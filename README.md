@@ -13,6 +13,7 @@
 - 바코드, LCD, 스피커, RFID 등 다수의 주변장치를 하나의 Raspberry Pi 보드에 통합
 - 네이버 쇼핑 API를 연동해 상품 정보를 조회하고, Firebase Firestore를 통해 라즈베리파이-앱 간 실시간 통신 구현
 - 안정적인 Wi-Fi 연결은 Firebase 통신을 포함한 전체 시스템 동작의 필수 조건이었음
+![회로도](images/circuit-diagram.png)
 
 ## 문제 해결 과정
 개발 중 **라즈베리파이가 부팅 후 Wi-Fi에 자동으로 연결되지 않는 문제**가 반복적으로 발생했습니다.
